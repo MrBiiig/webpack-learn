@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MyFont';
+  src:
+    url('./font/AlimamaFangYuanTiVF-Thin.woff2') format('woff2'),
+    url('./font/AlimamaFangYuanTiVF-Thin.ttf') format('truetype'),
+    url('./font/AlimamaFangYuanTiVF-Thin.woff') format('woff');
+}
+
+body {
+  background-color: lightblue;
+  font-family: 'MyFont', sans-serif;
+}
